@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Activity 2</title>
+    <style>
+        #div1 {
+            text-align: center;
+        }
+        .redText {
+            color:rgba(200, 0, 150);
+            background-color: lightgoldenrodyellow;
+            border-color: yellow;
+        }
+        /*input {
+            text-align: right;
+        }*/
+        .redText:hover {
+            color:blue;
+            
+        }
+        #btnLogin {
+            background-color: lightcoral;
+        }
+        #btnLogin:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+        #btnLogin{
+            background-color: lightpink;
+        }
+        #btnReg:hover{
+               font-size:large;
+               cursor:pointer;
+               font-size:x-large;
+        }
+        
+
+    </style>
+</head>
+<body style="background-color: lightpink;">
+          <h1 style="text-align: center">Log In kana po</h1>
+        <div style="text-align: center" id="div1">
+            <div style="margin-bottom: 1rem;">
+        <Input type="text" placeholder="Username" class="redText">
+        </div>
+        <div style="text-align: center">
+            <div style="margin-bottom: 1rem;">
+        <Input type="password" placeholder="Password" class="redText">
+        </div>
+        <div>
+            <button style="color:white" id="btnLogin">
+                
+                LogIn </button>
+                <a href="./register.html">
+            <button style="color: lightblue" id="btnReg">Register</button></a>
+
+            <p>Forgot Password? Click<a href="./forgot.html"> here</a></p>
+
+            <p><a href="./Homepage.html">About The Goat</a></p>
+
+        </div>
+        <script>
+            // Javascript
+            console.log("Hello Baby");
+        
+            let buttonLogin = document.querySelector('#btnLogin');
+            buttonLogin.onclick =function () {
+                alert("Logged In Succesfully!❤")
+            }
+        </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Activity 2</title>
+    <style>
+         #div1 {
+            text-align: center;
+        }
+        #btnRegis:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+        #btnCan:hover{
+            font-size: large;
+            cursor:pointer;
+            font-size: x-large;
+        }
+    </style>
+</head>
+<body style="background-color: lightgoldenrodyellow;">
+          <h1 style="text-align: center">Register</h1>
+          <div style="text-align: center" style="margin-bottom: 1rem;">          
+            <Input type="text" placeholder="Username">
+          </div>
+<br>
+           <div style="text-align: center" style="margin-bottom: 1rem;">
+           <Input type="password" placeholder="Password">
+           </div>
+           <br>
+
+           <div style="text-align: center" style="margin-bottom: 1rem;">
+           <Input type="password" placeholder="Confirm Password">
+           </div>
+           <br>
+           
+
+           <div style="text-align: center" style="margin-bottom: 1rem;">
+           <Input type="text" placeholder="First Name">
+           </div>
+           <br>
+           
+
+           <div style="text-align: center" style="margin-bottom: 1rem;">
+           <Input type="text" placeholder="Last Name">
+           </div>
+           <br>
+        <div style="text-align: center">
+                <a href="./index.html">             
+            <button style="color: Green" id="btnRegis">Register</button></a>
+                    </div> 
+                    <div style="text-align: center;">
+                    <a href="./index.html"><button style="color: darkgreen" id="btnCan">Cancel</button></a>
+                </div>
+        </div>
+        <script>
+            // Javascript
+            console.log("Hello Baby");
+        
+            let buttonLogin = document.querySelector('#btnRegis');
+            buttonLogin.onclick =function () {
+                alert("Registered Succesfully sheesh")
+            }
+        </script>
+</body>
+</html>
